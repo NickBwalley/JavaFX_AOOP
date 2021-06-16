@@ -42,7 +42,7 @@ public class LoginForm1 extends Application {
         
         //IMAGE
         ImageView logo_img = new ImageView();  
-        Image my_image = new Image(LoginForm1.class.getResourceAsStream("eyes.jpg"));
+        Image my_image = new Image(LoginForm1.class.getResourceAsStream("img.jpg"));
         
         logo_img.setImage(my_image); 
         logo_img.setX(10);
